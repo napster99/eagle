@@ -4,5 +4,21 @@
   "main": "index.js",
   "repository": "git@github.com:napster99/eagle.git",
   "author": "zhangxiaojian <zhangxj@tuya.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^0.2.0",
+    "@types/react": "^18.0.10",
+    "@types/react-dom": "^18.0.5",
+    "astro": "^1.0.0-beta.63"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
 }
