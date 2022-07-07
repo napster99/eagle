@@ -13,7 +13,17 @@
   "permissions": ["http://*.google.com/", "https://*.google.com/"],
   "browser_action": {
     "default_title": "",
-    "default_icon": "icon_19.png",
+    "default_icon": "ico.png",
     "default_popup": "popup.html"
+  },
+  "default_locale": "zh_CN",
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens hello.html"
+    }
   }
 }
