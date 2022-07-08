@@ -1,8 +1,10 @@
 # eagle
 
-[![~](https://img.shields.io/badge/build-passing-success)](https://github.com/napster99/eagle)
-[![~](https://img.shields.io/badge/lastest-v0.0.1-critical?style=flat&logo=GoogleChrome)](https://github.com/napster99/eagle)
+[![~](https://img.shields.io/badge/build-passing-success?style=flat&logo=GoogleChrome)](https://github.com/napster99/eagle)
 [![~](https://img.shields.io/badge/npm-Grafana-%23F46800?style=flat&logo=Grafana)](https://github.com/grafana/grafana)
+[![~](https://img.shields.io/badge/lastest-v0.0.1-critical)](https://github.com/napster99/eagle)
+[![~](https://img.shields.io/badge/MIT-License-blue)](https://github.com/napster99/eagle)
+
 
 A page Performances Tool for Google Chrome Extension  
 
