@@ -129,3 +129,12 @@ A page Performances Tool for Google Chrome Extension
 
 ###  V DOM延时提示
 * #### 内容区域精准提示，所见即所得
+
+
+## 插件打包目录结构
+```
+ dist
+  |-
+  |-
+  |-
+```
