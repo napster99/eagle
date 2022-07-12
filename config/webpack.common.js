@@ -4,8 +4,8 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
-    main: "./src/index.ts",
-    bg: "./bg.js",
+    main: "./src/index.tsx",
+    bg: "./src/bg.ts",
   },
   output: {
     filename: "[name].bundle.js",
@@ -34,6 +34,7 @@ module.exports = {
       patterns: [
         { from: "./manifest.json", to: "./manifest.json" },
         { from: "./public/icon.png", to: "./public/icon.png" },
+        { from: "./_locales", to: "./_locales" },
       ],
     }),
   ],
