@@ -1,8 +1,12 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.ts",
+  entry: {
+    main: "./src/index.ts",
+    bg: "./bg.js",
+  },
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "../", "dist"),
@@ -23,6 +27,14 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "Eagle",
+      filename: "popup.html",
+      template: "./popup.html",
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: "./manifest.json", to: "./manifest.json" },
+        { from: "./public/icon.png", to: "./public/icon.png" },
+      ],
     }),
   ],
 };

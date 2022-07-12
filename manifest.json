@@ -4,16 +4,16 @@
   "manifest_version": 2,
   "description": "a page performances toolkit for chrome extension",
   "icons": {
-    "128": "icon_128.png"
+    "128": "./public/icon.png"
   },
   "background": {
     "persistent": false,
-    "scripts": ["bg.js"]
+    "scripts": ["bg.bundle.js"]
   },
   "permissions": ["http://*.google.com/", "https://*.google.com/"],
   "browser_action": {
     "default_title": "",
-    "default_icon": "ico.png",
+    "default_icon": "./public/icon.png",
     "default_popup": "popup.html"
   },
   "default_locale": "zh_CN",
@@ -23,7 +23,7 @@
         "default": "Ctrl+Shift+F",
         "mac": "MacCtrl+Shift+F"
       },
-      "description": "Opens hello.html"
+      "description": "A page Performances Tool for Google Chrome Extension"
     }
   }
 }
