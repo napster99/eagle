@@ -10,6 +10,13 @@
     "persistent": false,
     "scripts": ["bg.bundle.js"]
   },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "run_at": "document_idle",
+      "js": ["content.bundle.js"]
+    }
+  ],
   "permissions": ["http://*.google.com/", "https://*.google.com/"],
   "browser_action": {
     "default_title": "",

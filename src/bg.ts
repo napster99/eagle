@@ -1,1 +1,3 @@
-const tip: string = "zzz";
+const tip: string = "zzzx";
+
+document.body.innerHTML = "xxxyx";

@@ -6,6 +6,8 @@ module.exports = {
   entry: {
     main: "./src/index.tsx",
     bg: "./src/bg.ts",
+    content: "./src/content.ts",
+    cur: "./src/cur.ts",
   },
   output: {
     filename: "[name].bundle.js",
